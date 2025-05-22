@@ -30,7 +30,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background: -webkit-linear-gradient(280deg, #fff5ef 80%, #062630 120%);
+  background: -webkit-linear-gradient(280deg, #fff5ef 80%, #0c8db4 120%);
 }
 
 .hero-section .hero-content {
@@ -159,7 +159,7 @@ img {
   margin: 0 auto;
 }
 .membership-option-card:nth-child(2) {
-  background: -webkit-linear-gradient(280deg, #fff5ef 60%, #385159 180%);
+  background: -webkit-linear-gradient(280deg, #fff5ef 60%, #0c8db4 180%);
 }
 .membership-option-card {
   width: 100%;
@@ -297,7 +297,7 @@ hr {
   .journey-content {
     width: 100%;
     padding: 4rem 2rem;
-    background: -webkit-linear-gradient(280deg, #fff5ef 60%, #385159 180%);
+    background: -webkit-linear-gradient(280deg, #fff5ef 60%, #0c8db4 180%);
     border-radius: 1rem;
   }
   .journey h2 {
