@@ -1,0 +1,529 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Martian Mono", monospace;
+}
+
+/* Header and hero */
+
+.site-header {
+  float: left;
+  width: 100%;
+}
+.logo {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.hero-section {
+  background-image: url("./assets/images/pattern-dark-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: -webkit-linear-gradient(280deg, #fff5ef 80%, #062630 120%);
+}
+
+.hero-section .hero-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: -webkit-linear-gradient(280deg, #ff9a60 11%, #062630 68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "inter", sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #222;
+  font-size: 1rem;
+  background-color: #fff5ef;
+}
+
+.hero-ratings {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.hero-content picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.hero-ratings img {
+  height: 3rem;
+}
+.hero-ratings .rating-text .rating-stars img {
+  height: 2rem;
+}
+.hero-ratings p {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "martian mono", monospace;
+}
+
+/* Features section */
+.feature-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.feature-container picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.feature-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.feature-1-text p {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-family: "inter", sans-serif;
+}
+
+.club {
+  position: relative;
+}
+
+.pattern-circle {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  width: 100%;
+  height: 100%;
+}
+.feature-2-text p {
+  font-family: "inter", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.tech-icons {
+  display: none;
+}
+
+/* Reading Journey section */
+.journey {
+  display: none;
+}
+/* Membership options section */
+.membership-options h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.membership-option-cards {
+  width: 90%;
+  margin: 0 auto;
+}
+.membership-option-card:nth-child(2) {
+  background: -webkit-linear-gradient(280deg, #fff5ef 60%, #385159 180%);
+}
+.membership-option-card {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e5e5;
+  transition: transform 0.3s ease;
+}
+
+.membership-option-card:hover {
+  transform: scale(1.05);
+}
+
+hr {
+  border: 0.0125rem solid #e5e5e5;
+  margin: 2rem 0;
+  opacity: 0.5;
+}
+.membership-option-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.membership-option-card p {
+  font-size: 1.2rem;
+  font-family: "inter", sans-serif;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.membership-option-card .price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Testimonials section */
+
+.testimonial-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.testimonial-content .testimonial-stars {
+  margin-bottom: 1rem;
+}
+.testimonial-content p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.testimonial-content .name-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* Footer */
+
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 3rem 0;
+  border-radius: 1rem 1rem 0 0;
+}
+.footer-content-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0 1rem 0;
+}
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.footer-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.footer-ratings {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+.footer-ratings img {
+  height: 3rem;
+}
+.footer-ratings .rating-text .rating-stars img {
+  height: 2rem;
+}
+
+.copyright-social {
+  text-align: center;
+}
+.copyright-social p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Queries */
+
+@media screen and (min-width: 48rem) {
+  /* hero */
+  .hero-text h1 {
+    font-size: 3rem;
+    width: 70%;
+  }
+  .hero-btn {
+    width: 50%;
+  }
+  .hero-ratings {
+    width: 60%;
+  }
+
+  /* Journey */
+  .journey {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .journey-content-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  .journey-content {
+    width: 100%;
+    padding: 4rem 2rem;
+    background: -webkit-linear-gradient(280deg, #fff5ef 60%, #385159 180%);
+    border-radius: 1rem;
+  }
+  .journey h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .num-arrow .number {
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid #222;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+  }
+  .journey p {
+    font-size: 1.2rem;
+    font-family: "martian mono", monospace;
+  }
+  .journey-step {
+    margin-bottom: 2rem;
+  }
+  .journey-step:last-child {
+    margin-bottom: 0;
+  }
+  /*  membership options */
+  .membership-option-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .membership-option-card {
+    width: 47%;
+  }
+  .with-tech-icons {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .tech-icons {
+    order: 2;
+    display: inline-block;
+    position: absolute;
+    bottom: 67%;
+    left: 70%;
+    width: 50%;
+  }
+  .with-tech-icons picture {
+    order: 4;
+    width: 100%;
+  }
+  .feature-2-text {
+    order: 1;
+    width: 100%;
+  }
+
+  .journey-content-wrapper {
+    order: 3;
+    width: 50%;
+  }
+  /* footer */
+  .site-footer {
+    padding: 3rem 0 0 0;
+  }
+  .copyright-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-btn {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-ratings {
+    width: 50%;
+    margin: 2rem auto 5rem auto;
+  }
+  .num-arrow img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .site-header {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-section {
+    padding: 4rem 0;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .hero-text {
+    width: 50%;
+  }
+  .hero-content picture {
+    width: 50%;
+  }
+  .hero-text h1 {
+    font-size: 4.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+  .hero-text p {
+    font-size: 1.5rem;
+    width: 95%;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  .hero-ratings {
+    width: 100%;
+  }
+  .hero-btn {
+    width: 60%;
+  }
+  h2 {
+    font-size: calc(2rem + 1vw);
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .feature-content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+  .feature-content-1 picture {
+    width: 50%;
+  }
+  .feature-content-1 .feature-1-text {
+    width: 50%;
+  }
+  .feature-content-1 .feature-1-text p {
+    width: 80%;
+  }
+  .feature-content-1 .feature-1-text {
+    order: 2;
+  }
+  .feature-content-1 picture {
+    order: 1;
+  }
+  .feature-content-1 .feature-heading {
+    font-size: 4rem;
+  }
+  .feature-content-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .feature-container {
+    padding: 6rem 0;
+  }
+
+  .with-tech-icons {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .with-tech-icons picture {
+    order: 2;
+    width: 50%;
+    gap: 2rem;
+  }
+  .tech-icons {
+    bottom: 57%;
+    left: 45%;
+    width: 50%;
+  }
+  .journey-content-wrapper {
+    order: 3;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .feature-2-text {
+    order: 1;
+    width: 50%;
+  }
+  .feature-2-text p {
+    width: 80%;
+  }
+  .feature-2-text h2 {
+    font-size: 4rem;
+  }
+
+  .membership-option-card {
+    width: 31%;
+  }
+
+  .journey-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem 0;
+  }
+  .num-arrow {
+    display: flex;
+    gap: 5rem;
+  }
+  .num-arrow img {
+    display: inline-block;
+    width: 5rem;
+    height: auto;
+  }
+  .testimonial-content {
+    text-align: center;
+    width: 60%;
+  }
+  .footer-header {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .footer-btn {
+    width: 40%;
+  }
+  .footer-ratings {
+    width: 40%;
+  }
+}
